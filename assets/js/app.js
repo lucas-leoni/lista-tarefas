@@ -78,6 +78,7 @@ document.addEventListener('click', function (e) {
   if (el.classList.contains('excluir')) {
     el.parentElement.remove();
     salvarTarefas();
+    removeBotaoExcluirTodas();
   }
 });
 
@@ -131,4 +132,15 @@ tarefas.addEventListener('click', function (e) {
   }
 });
 
+function removeBotaoExcluirTodas() {
+  const tarefas = localStorage.getItem('tarefas');
+  const listaDeTarefas = JSON.parse(tarefas);
+
+  if (listaDeTarefas.length === 0) {
+    const botaoExcluirTodas = document.querySelector('.excluir-todas');
+    botaoExcluirTodas.remove();
+  }
+}
+
 adicionaTarefasSalvas();
+removeBotaoExcluirTodas();
