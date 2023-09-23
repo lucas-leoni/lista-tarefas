@@ -11,7 +11,7 @@ criado por [Luiz Otávio Miranda](https://www.github.com/luizomf) para a platafo
 
 ## 🔗 Demonstração
 
-👉 [Acessar a lista](https://lista-ll.vercel.app/)
+👉 [Acessar a lista](https://lista-tarefas-ll.vercel.app/)
 
 ## 🙋🏻‍♂️ Autor
 
