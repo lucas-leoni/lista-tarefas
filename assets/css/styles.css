@@ -62,4 +62,6 @@ form button:hover {
 ul {
   list-style: none;
   padding: 0;
+  max-height: 630.56px;
+  overflow-y: auto;
 }
