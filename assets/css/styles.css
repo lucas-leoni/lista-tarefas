@@ -58,3 +58,8 @@ form button {
 form button:hover {
   background: var(--primary-color-darker);
 }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
